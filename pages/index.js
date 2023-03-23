@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import About from "@/components/About";
 import Cover from "@/components/Cover";
 import Rail from "@/components/Rail";
+import Tokenomics from "@/components/Tokenomics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,9 @@ export default function Home() {
 
       {/* rail section */}
       <Rail styles={styles} />
+
+      {/* tokenomics section */}
+      <Tokenomics styles={styles} />
     </>
   );
 }
