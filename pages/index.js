@@ -12,6 +12,7 @@ import Team from "@/components/Team";
 import WhitePaper from "@/components/WhitePaper";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import Roadmap from "@/components/Roadmap";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,7 +42,7 @@ export default function Home() {
       <Tokenomics styles={styles} />
 
       {/* roadmap section */}
-
+      <Roadmap styles={styles} />
       {/* why section */}
       <Why styles={styles} />
 
