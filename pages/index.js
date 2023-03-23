@@ -7,6 +7,11 @@ import About from "@/components/About";
 import Cover from "@/components/Cover";
 import Rail from "@/components/Rail";
 import Tokenomics from "@/components/Tokenomics";
+import Why from "@/components/Why";
+import Team from "@/components/Team";
+import WhitePaper from "@/components/WhitePaper";
+import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,6 +39,23 @@ export default function Home() {
 
       {/* tokenomics section */}
       <Tokenomics styles={styles} />
+
+      {/* roadmap section */}
+
+      {/* why section */}
+      <Why styles={styles} />
+
+      {/* team section */}
+      <Team styles={styles} />
+
+      {/* whitepaper section */}
+      <WhitePaper styles={styles} />
+
+      {/* contact section */}
+      <Contact styles={styles} />
+
+      {/* footer section */}
+      <Footer styles={styles} />
     </>
   );
 }
